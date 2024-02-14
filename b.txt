@@ -1,11 +1,48 @@
 CEO Interview Questions: 
-
-
 Critical (Closed-ended):
 Amidst the increasing rivalry in the food delivery industry, which specific measure will be of utmost importance for Zomato's performance in the next year?
-
 Informative (Open-ended):
 What strategies may Zomato use to maximise its distinct advantage in the Indian market and attain long-term growth?
-
 Open-ended:
 What disruptive developments do you anticipate impacting the future of food delivery within the next five years?
+
+
+Director-Product:
+Critical (Close-ended): What are the top 3 user feedback issues your team is presently concentrating on improving inside the Zomato app and website?
+Nice to know (Open-ended): How does your team prioritise new product development given the varying demands of different user categories like customers, restaurants, and delivery partners?
+
+Director-Marketing & PR Interview Questions:
+Critical (Close-ended): How do you analyse the performance of Zomato's current marketing activities across multiple web channels? What particular metrics do you track?
+Nice to know (Open-ended): As the competition environment develops, how is Zomato adjusting their marketing strategy to catch the attention of a varied client base while being cost-effective?
+Open-ended:
+With the expanding importance of social media and customised marketing, what creative methods do you anticipate defining the future of marketing in the food delivery industry?
+
+Director-Finance Interview Questions:
+Critical (Close-ended): Given Zomato's current growth trajectory, what are the main financial metrics you are most focused on improving in the following year?
+Nice to know (Open-ended): How does your team combine strategic investments for future development with preserving financial discipline and expense control?
+Open-ended:
+With the expanding food delivery industry, what upcoming financial trends or laws do you anticipate influencing Zomato's financial strategy in the long term?
+
+Director-HR & Admin Interview Questions:
+Critical (Close-ended):
+Considering Zomato's fast expansion, what talent acquisition tactics are you presently adopting to recruit and retain top talent in the competitive meal delivery industry?
+What is Zomato's current staff turnover rate, and what measures are you doing to lower it?
+Nice to know (Open-ended): How does your team combine the requirement for operational efficiency with promoting a healthy and engaging work culture at Zomato?
+How does your team assess the efficacy of your training and development programs?
+Open-ended:
+With remote and hybrid work arrangements becoming more prevalent, how is Zomato changing its HR policies to maintain successful employee engagement and cooperation in this shifting landscape?
+How do you anticipate the role of HR and Admin developing in the light of Zomato's future expansion plans?
+
+Director-IT Infrastructure Interview Questions:
+Critical (Close-ended): With Zomato's hybrid work style, how do you assure safe and dependable IT infrastructure accessibility for both onsite and remote employees?
+Nice to know (Open-ended): How does your team combine the cost-effectiveness of cloud infrastructure with the requirement for scalability and performance for Zomato's expanding demands?
+How does your team collaborate with other departments like HR and finance to ensure IT infrastructure aligns with the company's overall strategic goals?
+Open-ended:
+With the increased danger of cyberattacks, what proactive actions are you doing to defend Zomato's IT infrastructure and data security?
+
+Legal Counsel Interview Questions: Critical (Close-ended):
+What are the most significant legal concerns Zomato is now experiencing in the Indian food delivery industry?
+Nice to know (Open-ended):
+How does your legal team mix proactive risk management with giving fast and useful legal assistance to diverse divisions within Zomato?
+Open-ended:
+With new rules arising in the digital arena, how do you advise Zomato to remain compliant and manage a dynamic legal landscape.
