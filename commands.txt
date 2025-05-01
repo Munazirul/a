@@ -1,0 +1,1 @@
+sed -i 's/STUDENT_ID/24045150/g' ~/.zshrc
